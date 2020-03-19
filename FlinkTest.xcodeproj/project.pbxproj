@@ -3,17 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41C94D917F3C40CE8F23F772 /* Pods_FlinkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F60AC61B30B15089B7E136E /* Pods_FlinkTest.framework */; };
 		C6439CDC24227957002713F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439CDB24227957002713F5 /* AppDelegate.swift */; };
 		C6439CDE24227957002713F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439CDD24227957002713F5 /* SceneDelegate.swift */; };
-		C6439CE024227957002713F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439CDF24227957002713F5 /* ViewController.swift */; };
 		C6439CE324227957002713F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6439CE124227957002713F5 /* Main.storyboard */; };
 		C6439CE524227958002713F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6439CE424227958002713F5 /* Assets.xcassets */; };
 		C6439CE824227958002713F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6439CE624227958002713F5 /* LaunchScreen.storyboard */; };
 		C6439CF324227958002713F5 /* FlinkTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439CF224227958002713F5 /* FlinkTestTests.swift */; };
+		C6439D0524227AEF002713F5 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D0424227AEF002713F5 /* Environment.swift */; };
+		C6439D0724227B2C002713F5 /* ApiRickAndMorty.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D0624227B2C002713F5 /* ApiRickAndMorty.swift */; };
+		C6439D0924227B5C002713F5 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D0824227B5C002713F5 /* Character.swift */; };
+		C6439D0B24227BB7002713F5 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D0A24227BB7002713F5 /* Location.swift */; };
+		C6439D0D24227BD9002713F5 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D0C24227BD9002713F5 /* Episode.swift */; };
+		C6439D0F24227BFF002713F5 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D0E24227BFF002713F5 /* Info.swift */; };
+		C6439D302422AF08002713F5 /* CharacterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D2F2422AF08002713F5 /* CharacterListViewController.swift */; };
+		C6439D322422AF39002713F5 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D312422AF39002713F5 /* Networkable.swift */; };
+		C6439D342422AFF1002713F5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D332422AFF1002713F5 /* NetworkManager.swift */; };
+		C6439D362422B077002713F5 /* EpisodeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D352422B077002713F5 /* EpisodeListViewController.swift */; };
+		C6439D382422B0D3002713F5 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D372422B0D3002713F5 /* LocationListViewController.swift */; };
+		C6439D3A2422B0F4002713F5 /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D392422B0F4002713F5 /* CharacterDetailViewController.swift */; };
+		C6439D3C2422B11E002713F5 /* BaseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D3B2422B11E002713F5 /* BaseListViewController.swift */; };
+		C6439D3E2422B13C002713F5 /* EpisodeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D3D2422B13C002713F5 /* EpisodeDetailViewController.swift */; };
+		C6439D412422B1DE002713F5 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D402422B1DE002713F5 /* CharacterTableViewCell.swift */; };
+		C6439D432422B207002713F5 /* RickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D422422B207002713F5 /* RickView.swift */; };
+		C6439D462422B472002713F5 /* RickImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D452422B472002713F5 /* RickImageView.swift */; };
+		C6439D482422B494002713F5 /* EpisodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D472422B494002713F5 /* EpisodeTableViewCell.swift */; };
+		C6439D4A2422B4A6002713F5 /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D492422B4A6002713F5 /* LocationTableViewCell.swift */; };
+		C6439D4C2422B4BC002713F5 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D4B2422B4BC002713F5 /* DetailTableViewCell.swift */; };
+		C6439D5324230606002713F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6439D5224230606002713F5 /* ViewController.swift */; };
+		C6ECB049242322280088896E /* CustomBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ECB048242322280088896E /* CustomBorderButton.swift */; };
+		EDC78E81A95241F92029F32E /* libPods-FlinkTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1AB90E8E1694D2D09A06F8 /* libPods-FlinkTestTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +50,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F1AB90E8E1694D2D09A06F8 /* libPods-FlinkTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlinkTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		549A461EAEF1B6DAD99D7AE2 /* Pods-FlinkTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlinkTest.debug.xcconfig"; path = "Target Support Files/Pods-FlinkTest/Pods-FlinkTest.debug.xcconfig"; sourceTree = "<group>"; };
+		5816EBB721712DD7A36C506E /* Pods-FlinkTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlinkTest.release.xcconfig"; path = "Target Support Files/Pods-FlinkTest/Pods-FlinkTest.release.xcconfig"; sourceTree = "<group>"; };
+		6F60AC61B30B15089B7E136E /* Pods_FlinkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlinkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8913194533964DC6A4B3F6BD /* Pods-FlinkTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlinkTestTests.release.xcconfig"; path = "Target Support Files/Pods-FlinkTestTests/Pods-FlinkTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		C6439CD824227957002713F5 /* FlinkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlinkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6439CDB24227957002713F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6439CDD24227957002713F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C6439CDF24227957002713F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6439CE224227957002713F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6439CE424227958002713F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6439CE724227958002713F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C6439CE924227958002713F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6439CEE24227958002713F5 /* FlinkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlinkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6439CF224227958002713F5 /* FlinkTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlinkTestTests.swift; sourceTree = "<group>"; };
 		C6439CF424227958002713F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6439D0324227A9C002713F5 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		C6439D0424227AEF002713F5 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		C6439D0624227B2C002713F5 /* ApiRickAndMorty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRickAndMorty.swift; sourceTree = "<group>"; };
+		C6439D0824227B5C002713F5 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		C6439D0A24227BB7002713F5 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C6439D0C24227BD9002713F5 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		C6439D0E24227BFF002713F5 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		C6439D112422965A002713F5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6439D2F2422AF08002713F5 /* CharacterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewController.swift; sourceTree = "<group>"; };
+		C6439D312422AF39002713F5 /* Networkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
+		C6439D332422AFF1002713F5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C6439D352422B077002713F5 /* EpisodeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeListViewController.swift; sourceTree = "<group>"; };
+		C6439D372422B0D3002713F5 /* LocationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListViewController.swift; sourceTree = "<group>"; };
+		C6439D392422B0F4002713F5 /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
+		C6439D3B2422B11E002713F5 /* BaseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseListViewController.swift; sourceTree = "<group>"; };
+		C6439D3D2422B13C002713F5 /* EpisodeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailViewController.swift; sourceTree = "<group>"; };
+		C6439D402422B1DE002713F5 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
+		C6439D422422B207002713F5 /* RickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickView.swift; sourceTree = "<group>"; };
+		C6439D452422B472002713F5 /* RickImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickImageView.swift; sourceTree = "<group>"; };
+		C6439D472422B494002713F5 /* EpisodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeTableViewCell.swift; sourceTree = "<group>"; };
+		C6439D492422B4A6002713F5 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		C6439D4B2422B4BC002713F5 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		C6439D5224230606002713F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6ECB048242322280088896E /* CustomBorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBorderButton.swift; sourceTree = "<group>"; };
+		FFB88C14F6B6F31E91C41099 /* Pods-FlinkTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlinkTestTests.debug.xcconfig"; path = "Target Support Files/Pods-FlinkTestTests/Pods-FlinkTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C94D917F3C40CE8F23F772 /* Pods_FlinkTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +104,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC78E81A95241F92029F32E /* libPods-FlinkTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66F43804337729AB9E1342FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F60AC61B30B15089B7E136E /* Pods_FlinkTest.framework */,
+				3F1AB90E8E1694D2D09A06F8 /* libPods-FlinkTestTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C6439CCF24227957002713F5 = {
 			isa = PBXGroup;
 			children = (
 				C6439CDA24227957002713F5 /* FlinkTest */,
 				C6439CF124227958002713F5 /* FlinkTestTests */,
 				C6439CD924227957002713F5 /* Products */,
+				DFF9E588E19AD383E4C83D99 /* Pods */,
+				66F43804337729AB9E1342FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +143,13 @@
 		C6439CDA24227957002713F5 /* FlinkTest */ = {
 			isa = PBXGroup;
 			children = (
-				C6439CDB24227957002713F5 /* AppDelegate.swift */,
+				C6439D02242279CD002713F5 /* Application */,
+				C6439D01242279C3002713F5 /* Config */,
+				C6439CFE2422798B002713F5 /* Commons */,
+				C6ECB047242322170088896E /* Utils */,
+				C6439CFD24227968002713F5 /* Modules */,
 				C6439CDD24227957002713F5 /* SceneDelegate.swift */,
-				C6439CDF24227957002713F5 /* ViewController.swift */,
-				C6439CE124227957002713F5 /* Main.storyboard */,
 				C6439CE424227958002713F5 /* Assets.xcassets */,
-				C6439CE624227958002713F5 /* LaunchScreen.storyboard */,
-				C6439CE924227958002713F5 /* Info.plist */,
 			);
 			path = FlinkTest;
 			sourceTree = "<group>";
@@ -99,6 +163,119 @@
 			path = FlinkTestTests;
 			sourceTree = "<group>";
 		};
+		C6439CFD24227968002713F5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C6439D422422B207002713F5 /* RickView.swift */,
+				C6439D452422B472002713F5 /* RickImageView.swift */,
+				C6439D4B2422B4BC002713F5 /* DetailTableViewCell.swift */,
+				C6439D512422F07E002713F5 /* Location */,
+				C6439D502422F073002713F5 /* Character */,
+				C6439D2B2422ADCB002713F5 /* Episode */,
+				C6439D3B2422B11E002713F5 /* BaseListViewController.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C6439CFE2422798B002713F5 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				C6439D00242279A0002713F5 /* APIs */,
+				C6439CFF2422799A002713F5 /* Models */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		C6439CFF2422799A002713F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C6439D0824227B5C002713F5 /* Character.swift */,
+				C6439D0A24227BB7002713F5 /* Location.swift */,
+				C6439D0C24227BD9002713F5 /* Episode.swift */,
+				C6439D0E24227BFF002713F5 /* Info.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C6439D00242279A0002713F5 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				C6439D0624227B2C002713F5 /* ApiRickAndMorty.swift */,
+				C6439D312422AF39002713F5 /* Networkable.swift */,
+				C6439D332422AFF1002713F5 /* NetworkManager.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		C6439D01242279C3002713F5 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				C6439D112422965A002713F5 /* Info.plist */,
+				C6439D0324227A9C002713F5 /* Development.xcconfig */,
+				C6439D0424227AEF002713F5 /* Environment.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		C6439D02242279CD002713F5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C6439CDB24227957002713F5 /* AppDelegate.swift */,
+				C6439CE124227957002713F5 /* Main.storyboard */,
+				C6439CE624227958002713F5 /* LaunchScreen.storyboard */,
+				C6439D5224230606002713F5 /* ViewController.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C6439D2B2422ADCB002713F5 /* Episode */ = {
+			isa = PBXGroup;
+			children = (
+				C6439D3D2422B13C002713F5 /* EpisodeDetailViewController.swift */,
+				C6439D352422B077002713F5 /* EpisodeListViewController.swift */,
+				C6439D472422B494002713F5 /* EpisodeTableViewCell.swift */,
+			);
+			path = Episode;
+			sourceTree = "<group>";
+		};
+		C6439D502422F073002713F5 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				C6439D2F2422AF08002713F5 /* CharacterListViewController.swift */,
+				C6439D392422B0F4002713F5 /* CharacterDetailViewController.swift */,
+				C6439D402422B1DE002713F5 /* CharacterTableViewCell.swift */,
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
+		C6439D512422F07E002713F5 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				C6439D372422B0D3002713F5 /* LocationListViewController.swift */,
+				C6439D492422B4A6002713F5 /* LocationTableViewCell.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		C6ECB047242322170088896E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C6ECB048242322280088896E /* CustomBorderButton.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DFF9E588E19AD383E4C83D99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				549A461EAEF1B6DAD99D7AE2 /* Pods-FlinkTest.debug.xcconfig */,
+				5816EBB721712DD7A36C506E /* Pods-FlinkTest.release.xcconfig */,
+				FFB88C14F6B6F31E91C41099 /* Pods-FlinkTestTests.debug.xcconfig */,
+				8913194533964DC6A4B3F6BD /* Pods-FlinkTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6439CF724227958002713F5 /* Build configuration list for PBXNativeTarget "FlinkTest" */;
 			buildPhases = (
+				A715D590648A8513C6B2122E /* [CP] Check Pods Manifest.lock */,
 				C6439CD424227957002713F5 /* Sources */,
 				C6439CD524227957002713F5 /* Frameworks */,
 				C6439CD624227957002713F5 /* Resources */,
+				3CB9090157779C2464FEB2B6 /* [CP] Embed Pods Frameworks */,
+				C6439D102422962A002713F5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -123,6 +303,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6439CFA24227958002713F5 /* Build configuration list for PBXNativeTarget "FlinkTestTests" */;
 			buildPhases = (
+				C44D1D27B0C145C33486EE78 /* [CP] Check Pods Manifest.lock */,
 				C6439CEA24227958002713F5 /* Sources */,
 				C6439CEB24227958002713F5 /* Frameworks */,
 				C6439CEC24227958002713F5 /* Resources */,
@@ -195,14 +376,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CB9090157779C2464FEB2B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlinkTest/Pods-FlinkTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlinkTest/Pods-FlinkTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlinkTest/Pods-FlinkTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A715D590648A8513C6B2122E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlinkTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C44D1D27B0C145C33486EE78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlinkTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6439D102422962A002713F5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6439CD424227957002713F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6439CE024227957002713F5 /* ViewController.swift in Sources */,
+				C6439D4C2422B4BC002713F5 /* DetailTableViewCell.swift in Sources */,
+				C6439D432422B207002713F5 /* RickView.swift in Sources */,
+				C6439D342422AFF1002713F5 /* NetworkManager.swift in Sources */,
+				C6439D0D24227BD9002713F5 /* Episode.swift in Sources */,
+				C6439D3C2422B11E002713F5 /* BaseListViewController.swift in Sources */,
+				C6439D362422B077002713F5 /* EpisodeListViewController.swift in Sources */,
+				C6439D0524227AEF002713F5 /* Environment.swift in Sources */,
+				C6439D5324230606002713F5 /* ViewController.swift in Sources */,
 				C6439CDC24227957002713F5 /* AppDelegate.swift in Sources */,
+				C6439D0924227B5C002713F5 /* Character.swift in Sources */,
+				C6439D3E2422B13C002713F5 /* EpisodeDetailViewController.swift in Sources */,
+				C6439D482422B494002713F5 /* EpisodeTableViewCell.swift in Sources */,
+				C6439D322422AF39002713F5 /* Networkable.swift in Sources */,
+				C6439D412422B1DE002713F5 /* CharacterTableViewCell.swift in Sources */,
+				C6439D302422AF08002713F5 /* CharacterListViewController.swift in Sources */,
+				C6439D0F24227BFF002713F5 /* Info.swift in Sources */,
+				C6ECB049242322280088896E /* CustomBorderButton.swift in Sources */,
+				C6439D462422B472002713F5 /* RickImageView.swift in Sources */,
+				C6439D4A2422B4A6002713F5 /* LocationTableViewCell.swift in Sources */,
+				C6439D0724227B2C002713F5 /* ApiRickAndMorty.swift in Sources */,
+				C6439D3A2422B0F4002713F5 /* CharacterDetailViewController.swift in Sources */,
 				C6439CDE24227957002713F5 /* SceneDelegate.swift in Sources */,
+				C6439D382422B0D3002713F5 /* LocationListViewController.swift in Sources */,
+				C6439D0B24227BB7002713F5 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +529,7 @@
 /* Begin XCBuildConfiguration section */
 		C6439CF524227958002713F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6439D0324227A9C002713F5 /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -306,6 +590,7 @@
 		};
 		C6439CF624227958002713F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6439D0324227A9C002713F5 /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -360,11 +645,12 @@
 		};
 		C6439CF824227958002713F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 549A461EAEF1B6DAD99D7AE2 /* Pods-FlinkTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CR7US3LS35;
-				INFOPLIST_FILE = FlinkTest/Info.plist;
+				DEVELOPMENT_TEAM = A7V6JXVCCR;
+				INFOPLIST_FILE = "$(SRCROOT)/FlinkTest/Config/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,11 +664,12 @@
 		};
 		C6439CF924227958002713F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5816EBB721712DD7A36C506E /* Pods-FlinkTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CR7US3LS35;
-				INFOPLIST_FILE = FlinkTest/Info.plist;
+				DEVELOPMENT_TEAM = A7V6JXVCCR;
+				INFOPLIST_FILE = "$(SRCROOT)/FlinkTest/Config/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,6 +683,7 @@
 		};
 		C6439CFB24227958002713F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB88C14F6B6F31E91C41099 /* Pods-FlinkTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +706,7 @@
 		};
 		C6439CFC24227958002713F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8913194533964DC6A4B3F6BD /* Pods-FlinkTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

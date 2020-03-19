@@ -1,0 +1,16 @@
+//
+//  Development.xcconfig
+//  FlinkTest
+//
+//  Created by Mauricio Rodriguez on 18/03/20.
+//  Copyright © 2020 Mauricio Rodriguez. All rights reserved.
+//
+
+// MARK: - App data
+PRODUCT_BUNDLE_IDENTIFIER   = com.mauricio.FlinkTest
+DISPLAY_NAME                = FlinkTest
+APP_ICON                    = AppIcon
+APP_ID                      = com.mauricio.FlinkTest
+
+// MARK: - URLs
+BASE_URL                    = https:\/\/rickandmortyapi.com/api/
