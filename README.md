@@ -2,17 +2,16 @@
 
 Flink Test
 
-Flink Test es una app gratuita la cula muestra información sobre Rick y Morty.
+Flink Test es una app gratuita la cual muestra información sobre Rick y Morty.
 
 # Requirements
-iOS 11.0+ 
-Xcode 11+ 
+- iOS 11.0+ 
+- Xcode 11+ 
 
 # Installation Cocoapods 
-
-$ sudo gem install cocoapods
-$ pod init
-$ sudo gem install cocoapods
+- $ sudo gem install cocoapods
+- $ pod init
+- $ sudo gem install cocoapods
 
 # Configuration
 .xcconfig: Contenedor de la configuración básica y entornos de la aplicación desarrollo.
